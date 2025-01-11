@@ -77,7 +77,9 @@ streamlit run app.py
 
 ### Demo Video
 
-Here's a demonstration of the tool in action:
+Here's a demonstration of the tool in action: [Demo](https://drive.google.com/file/d/1owKweG215vVhyiiKrhKwkltO7dfJAZDB/view?usp=sharing)
+
+[![Watch the video](assets/screen.png)](assets/screen_demo.mp4)
 
 <video controls>
   <source src="assets/screen_demo.mp4" type="video/mp4">
