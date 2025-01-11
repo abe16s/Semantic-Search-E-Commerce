@@ -39,8 +39,12 @@ class SemanticSearchEngine:
         Load precomputed embeddings.
         """
         if self.embedding_path:
-            self.embeddings = torch.load(self.embedding_path)
-            print(f"Loaded embeddings from {self.embedding_path}")
+            try:
+                self.embeddings = torch.load(self.embedding_path)
+                print(f"Loaded embeddings from {self.embedding_path}")
+            except FileNotFoundError:
+                print(f"No embeddings found at {self.embedding_path}. Proceeding to compute embeddings.")
+                self.compute_embeddings()
 
     def search(self, query, top_k=10):
         """
