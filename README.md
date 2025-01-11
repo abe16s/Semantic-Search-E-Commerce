@@ -75,6 +75,15 @@ streamlit run app.py
 * Navigate to this URL in your web browser.
 * You will see a simple UI where you can input your search query and specify categories to filter results.
 
+### Demo Video
+
+Here's a demonstration of the tool in action:
+
+<video controls>
+  <source src="assets/screen_demo.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
 
 ## Notes
 
